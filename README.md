@@ -32,7 +32,7 @@
 - 中文开发优化
 - 远程一键部署
 
-**所有 skill 都能在 4 个主流 AI 工具间共享** —— 一个仓库,覆盖整个 AI 编程生态。
+**所有 skill 都能在 4 个主流 AI 工具间共享** - 一个仓库,覆盖整个 AI 编程生态。
 
 ### 为什么用?
 
@@ -49,10 +49,10 @@
 | 工具 | Skills 数 | 入口 |
 |------|----------|------|
 | **Claude Code** | 3 | [claude-code/](claude-code/) |
-| **Codex** | 1 | [codex/](codex/) |
+| **Codex** | 2 | [codex/](codex/) |
 | **Cursor Agent** | 1 | [cursor/](cursor/) |
 | **OpenClaw** | 1 | [openclaw/](openclaw/) |
-| **Hermes Agent** | 1 | [hermes/](hermes/) |
+| **Hermes Agent** | 3 | [hermes/](hermes/) |
 
 (部分 skill 跨多个工具,在 `shared/` 目录下)
 
@@ -182,6 +182,18 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 
 [→ 查看详情](hermes/hermes-mem/)
 
+#### 🐦 hermes/hermes-tweet
+
+**Hermes Agent 的 Xquik X/Twitter 插件工作流**。
+
+- 一键安装并启用 Hermes Tweet 插件
+- 使用 `tweet_explore`、`tweet_read` 和 `tweet_action` 3 个结构化工具
+- 支持 X/Twitter 搜索、读取、趋势、抽取、监控与审批后操作
+- 写入和私密操作默认关闭,需要显式动作开关
+- 使用 `XQUIK_API_KEY` 环境变量,不把密钥写进仓库
+
+[→ 查看详情](hermes/hermes-tweet/)
+
 #### 📚 claude-code/api-prompts
 
 **50+ 实战 prompt 模板**。
@@ -254,6 +266,7 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 | W3 | cursor-rules-pack | ✅ 完成 |
 | W3 | vscode-extension-pack | ✅ 完成 |
 | W4 | model-benchmark | ✅ 完成 |
+| W4 | hermes-tweet | ✅ 完成 |
 
 ---
 
@@ -313,11 +326,11 @@ Claude Code 撞限速时自动弹窗推荐 [api.skillai.top](https://api.skillai
 
 | Tool | Skills | Path |
 |------|--------|------|
-| **Claude Code** | 2 | [claude-code/](claude-code/) |
-| **Codex** | Coming | [codex/](codex/) |
+| **Claude Code** | 3 | [claude-code/](claude-code/) |
+| **Codex** | 2 | [codex/](codex/) |
 | **Cursor Agent** | 1 | [shared/](shared/) |
-| **OpenClaw** | Coming | [openclaw/](openclaw/) |
-| **Hermes Agent** | Coming | [hermes/](hermes/) |
+| **OpenClaw** | 1 | [openclaw/](openclaw/) |
+| **Hermes Agent** | 3 | [hermes/](hermes/) |
 
 ### Quick Start
 
